@@ -1,0 +1,11 @@
+x=int(input())
+z=0
+temp=x
+while(x):
+    d=x%10
+    x=x//10
+    z=z*10+d
+if(temp==z):
+    print("True")
+else:
+    print("False")
